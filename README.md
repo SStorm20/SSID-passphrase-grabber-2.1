@@ -1,7 +1,7 @@
 # 🛜 Storm WIFI Grabber 2.1 Beta
 
 <p align="center">
-  <img src="https://imgur.com/dlF9XRB.png" alt="WIFI Password Grabber Logo" width="400">
+  <img src="https://imgur.com/fBOGRkS.png" alt="WIFI Password Grabber Logo" width="400">
 </p>
 
 ---
@@ -33,9 +33,8 @@
 </p>
 
 ### 📶 **SSIDs and Passwords**
-<p align="center">
-  <img src="https://imgur.com/keaxdEK.png" alt="SSIDs and Passwords">
-</p>
+
++ you can find it in the image file 📁
 
 > **Note:** This script is compatible only with **Windows 10/11** 🪟.
 
@@ -85,7 +84,7 @@
 
 Check out the demonstration video here:  
 
-[![Watch on YouTube](https://imgur.com/dlF9XRB.png)](https://youtu.be/NlJVZS8tU6I)
+[![Watch on YouTube](https://imgur.com/fBOGRkS.png)](https://youtu.be/NlJVZS8tU6I)
 
 ---
 
