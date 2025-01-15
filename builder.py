@@ -9,26 +9,32 @@ import time
 import subprocess
 from language import *
 def start_():
+    def remove():
+        if os.path.exists("mal5.py"):
+            os.remove("mal5.py")
+        if os.path.exists(input_file):
+            os.remove(input_file)
+        for file in os.listdir():
+            if file.endswith(".spec"):
+                os.remove(file)
     def py_2_exe():
         file_namee = input_file
         icon = exe_icon_path.get()
-        
         print(f"Debug: file_namee = '{file_namee}'")
         print(f"Debug: icon = '{icon}'")
-
         file_dir = os.path.dirname(file_namee)
         if file_dir:
             os.chdir(file_dir)
-        
         if not icon:
             print("error in py 2 exe funtion : No icon found! Icon set to 'none'.")
             subprocess.run(["pyinstaller", "--onefile", "--noconsole", os.path.basename(file_namee)])
+            remove()
         else:
-            subprocess.run(["pyinstaller", "--onefile", "--noconsole", "-i", icon, os.path.basename(file_namee)])
-        
+            subprocess.run(["pyinstaller", "--onefile", "--noconsole", "--icon", icon, os.path.basename(file_namee)])
+            remove()
         CTkMessagebox.CTkMessagebox(title="Done", message="Conversion to EXE completed successfully.",
                                     icon="check", font=(("Courier New", 15)))
-    
+
     def obfuscate(input_file, iterations):
         if not os.path.isfile(input_file):
             print(f"Error in obf function: Input file '{input_file}' does not exist\ntrying with default name.")
@@ -42,12 +48,14 @@ def start_():
                     ["python", "obf_py.py", "-i", current_input, "-o", output_file, "-r", "2", "--include-imports"],
                     shell=False
                 )
+
                 if result.returncode != 0:
                     print(f"Error in obf function: Obfuscation failed for {current_input}.")
                     break
                 current_input = output_file
                 if os.path.exists(current_input) and i > 1:
                     os.remove(f"mal{i}.py")
+
             except Exception as e:
                 print(e)
 
