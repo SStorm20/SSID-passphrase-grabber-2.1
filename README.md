@@ -1,4 +1,4 @@
-# 🛜 Storm WIFI-Grabber 2.1 Beta (SWG)
+# 🛜 Storm WIFI Grabber 2.1 Beta
 
 <p align="center">
   <img src="https://imgur.com/fBOGRkS.png" alt="WIFI Password Grabber Logo" width="400">
@@ -20,17 +20,14 @@
 ### 🛜 **Works Only with WiFi Interface**
 > If the device lacks a WiFi interface, the script will not function ❎.
 
-<p align="center">
-  <img src="https://imgur.com/ONZIpLQ.png" alt="WiFi Interface Check">
-</p>
+![Image](https://github.com/user-attachments/assets/06517fc7-2474-46c2-887c-4b1ad88510cd)
 
 ### 🛜 **Full WiFi Information**
-<p align="center">
-  <img src="https://imgur.com/CivlhMu.png" alt="Full WiFi Info" width="500">
-</p>
+
+![Image](https://github.com/user-attachments/assets/c5926079-7322-419f-b179-f120c3a13b54)
 
 ### 📶 **SSIDs and Passwords**
-+ you can find it the the image file
+![Image](https://github.com/user-attachments/assets/cb162a97-cc0b-437f-9604-f6a4ba83a14f)
 
 > **Note:** This script is compatible only with **Windows 10/11** 🪟.
 
@@ -65,15 +62,10 @@
 ## 🌍 Language Versions
 
 ### **English Version**
-<p align="center">
-  <img src="https://imgur.com/2ZRdLjq.png" alt="English Version" width="400">
-</p>
+![Image](https://github.com/user-attachments/assets/48b786f2-fac4-4fe8-9c88-f22db7d738cc)
 
 ### **Arabic Version**
-<p align="center">
-  <img src="https://imgur.com/FjYIKK7.png" alt="Arabic Version" width="400">
-</p>
-
+![Image](https://github.com/user-attachments/assets/1e4b171e-b28e-4795-a298-a7f33e2a3691)
 ---
 
 ## 🛠️ Usage Example
@@ -98,8 +90,7 @@ To use this project, you'll need to install the required Python packages listed 
    
    ```
    
-### 🗃️ or you can run the install reqs.bat --> launcher.bat 
-
+### 🗃️ or you can run the install reqs.bat --> launcher.bat
 
 ## 💼 license
 
