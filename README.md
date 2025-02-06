@@ -26,7 +26,7 @@
 
 ![Image](https://github.com/user-attachments/assets/c5926079-7322-419f-b179-f120c3a13b54)
 
-### 📶 **SSIDs and Passwords**
+### 📶 **SSIDs and Passphrases**
 ![Image](https://github.com/user-attachments/assets/cb162a97-cc0b-437f-9604-f6a4ba83a14f)
 
 > **Note:** This script is compatible only with **Windows 10/11** 🪟.
